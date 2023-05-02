@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import './calendar.css';
 
 class CreateEvent extends Component {
   state = {

@@ -2284,7 +2284,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".react-calendar-timeline .rct-item {\n    background-color: #a5c8e1;\n    color: #000;\n  }\n  \n  .react-calendar-timeline .rct-item-content {\n    font-size: 14px;\n  }\n  \n  .react-calendar-timeline .rct-header {\n    background-color: #333;\n    color: #fff;\n    font-size: 16px;\n  }\n  \n  .react-calendar-timeline .rct-header-label {\n    font-size: 16px;\n  }\n  ", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".react-calendar-timeline .rct-item {\n    background-color: #a5c8e1;\n    color: #000;\n  }\n  \n  .react-calendar-timeline .rct-item-content {\n    font-size: 14px;\n  }\n  \n  .react-calendar-timeline .rct-header {\n    background-color: #333;\n    color: #fff;\n    font-size: 16px;\n  }\n  \n  .react-calendar-timeline .rct-header-label {\n    font-size: 16px;\n  }\n  form {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 20px;\n    border: 1px solid #ccc;\n    border-radius: 5px;\n    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);\n    background-color: #f8f8f8;\n  }\n  \n  label {\n    display: block;\n    margin-bottom: 5px;\n  }\n  \n  input,\n  textarea {\n    width: 100%;\n    padding: 10px;\n    margin-bottom: 10px;\n    border-radius: 5px;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    font-size: 16px;\n  }\n  \n  input[type=\"datetime-local\"] {\n    width: 100%;\n    padding: 10px;\n    margin-bottom: 10px;\n    border-radius: 5px;\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    font-size: 16px;\n  }\n  \n  button[type=\"submit\"] {\n    padding: 10px;\n    border-radius: 5px;\n    border: none;\n    background-color: #007bff;\n    color: #fff;\n    font-size: 16px;\n    cursor: pointer;\n    transition: background-color 0.3s ease;\n  }\n  \n  button[type=\"submit\"]:hover {\n    background-color: #0069d9;\n  }\n  ", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3182,6 +3182,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _calendar_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./calendar.css */ "./resources/js/Pages/calendar.css");
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
@@ -3196,6 +3197,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+
 
 
 var CreateEvent = /*#__PURE__*/function (_Component) {
