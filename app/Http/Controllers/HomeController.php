@@ -15,12 +15,17 @@ class HomeController extends Controller
         return inertia('Calendar');
     }
 
-    public function EventForm() {
-        return inertia('EventForm');
+    public function CreateEvent() {
+        return inertia('CreateEvent');
     }
 
     public function List() {
         $events = Event::all();
         return response()->json($events);
+    }
+
+    public function Create(Request $request) {
+        $events = Event::create($request->all());
+        return;
     }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class EventForm extends Component {
+class CreateEvent extends Component {
   state = {
     title: '',
     description: '',
@@ -13,7 +13,7 @@ class EventForm extends Component {
     event.preventDefault();
     const { title, description, start_time, end_time } = this.state;
     const eventData = { title, description, start_time, end_time };
-    axios.post('/api/events', eventData)
+    axios.post('/api/event', eventData)
       .then(response => {
         // Handle success
         console.log(response);
@@ -75,4 +75,4 @@ class EventForm extends Component {
   }
 }
 
-export default EventForm;
+export default CreateEvent;

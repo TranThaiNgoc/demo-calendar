@@ -14,4 +14,4 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/EventForm', [HomeController::class, 'EventForm'])->name('EventForm');
+Route::get('/create-event', [HomeController::class, 'CreateEvent'])->name('create-event');

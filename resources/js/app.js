@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 
 import { InertiaProgress } from '@inertiajs/progress';
 import Calendar from './Pages/Calendar';
+import CreateEvent from './Pages/CreateEvent';
 
 InertiaProgress.init();
 
@@ -16,6 +17,8 @@ const Root = () => (
       switch (name) {
         case 'Calendar':
           return Calendar;
+        case 'CreateEvent':
+          return CreateEvent;
         default:
           return null;
       }
