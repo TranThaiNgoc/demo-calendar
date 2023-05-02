@@ -1,0 +1,19 @@
+.react-calendar-timeline .rct-item {
+    background-color: #a5c8e1;
+    color: #000;
+  }
+  
+  .react-calendar-timeline .rct-item-content {
+    font-size: 14px;
+  }
+  
+  .react-calendar-timeline .rct-header {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .react-calendar-timeline .rct-header-label {
+    font-size: 16px;
+  }
+  
